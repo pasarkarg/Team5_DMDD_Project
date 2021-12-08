@@ -6,6 +6,12 @@ execute insert1.insert_customer(34749 , 'Wane Fox' , '11-NOV-1992' , 31, 2347865
 execute insert1.insert_customer(55631 , 'Tejas Bawankar' , '11-JUL-1994' , 27, 8983122563 , 44043, 'Texas' , '71, Pandey layout' , '09-NOV-2019' , 'Aditi@04' , 'Mastaa' , 'Chobugomu');
 execute insert1.insert_customer (76231 , 'Siddharth Savant' , '19-JUL-1996' , 25, 9559240344 , 89645, 'California' , '55, South Nagar' , '26-SEP-2017' , 'Cloud@04' , 'Funnyman' , 'Rowbow2');
 execute insert1.insert_customer (90214 , 'Vaibhavi T' , '09-Oct-1996' , 25, 8149935345 , 77564 , 'Texas' , '71, Effco Way' , '14-OCT-2018' , 'Space@05' , 'Cutiepie' , 'Unicorn');
+execute insert1.insert_customer(87452 , 'Jack Columbus' , '01-jan-1988' , 32, 8149976541 , 72123 , 'Washington','Tempe' , '89, Treat Streat' , '19-Jul-2021' , 'yahoo&5' , 'Lassi' , 'Beatit');
+execute insert1.insert_customer(11075 , 'Will Jackman' , '23-Sep-90' , 32, 8149976541 , 72123 , 'Washington' ,'London', '89, Treat Streat' , '19-Jul-2021' , 'yahoo&5' , 'Lassi' , 'Beatit');
+execute insert1.insert_customer(11070 , 'Ted Artist' , '23-Mar-95' , 32, 8149976541 , 72123 , 'Washington' ,'Wage', '89, Treat Streat' , '19-Jul-2021' , 'yahoo&5' , 'Lassi' , 'Beatit');
+execute insert1.insert_customer(87454 , 'TOAD GUPTA' , '23-Mar-00' , 32, 8149976541 , 72123 , 'Washington' ,'Faang', '89, Treat Streat' , '19-Jul-2021' , 'yahoo&5' , 'Lassi' , 'Beatit');
+execute insert1.insert_customer(66751 , 'HOLLY WITTON' , '11-Nov-90' , 32, 8149976541 , 72123 , 'Washington' ,'Mouth', '89, Treat Streat' , '19-Jul-2021' , 'yahoo&5' , 'Lassi' , 'Beatit');
+execute insert1.insert_customer(11489 , 'Megan Joseph' , '19-Jun-80' , 41, 2347905511 , 72123 , 'Washington' , 'Dallas', '89, Treat Streat' , '19-Jul-2021' , 'yahoo&5' , 'Lassi' , 'Beatit');
 
 
 
