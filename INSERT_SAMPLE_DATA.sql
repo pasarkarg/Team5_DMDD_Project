@@ -1,17 +1,17 @@
 
 ----------------------------------------------CUSTOMER DATA-------------------------------------------------------
 
-execute insert1.insert_customer(11489 , 'Megan Joseph' , '19-jun-1980' , 41, 2347905511 , 92133 , 'New York' , '41, Melvin street' , '22-FEB-2020' , 'Knight@1' , 'Safforn' , 'Balling');
+execute insert1.insert_customer(11489 , 'Megan Joseph' , '19-Jun-1980' , 41, 2347905511 , 92133 , 'New York' ,'41, Melvin street' , '22-FEB-2020' , 'Knight@1' , 'Safforn' , 'Balling');
 execute insert1.insert_customer(34749 , 'Wane Fox' , '11-NOV-1992' , 31, 2347865588 , 37553 , 'FLORIDA' , '22, Park Street' , '17-MAY-2019' , 'Toyyy777' , 'Sanban*8' , 'Yussss');
-execute insert1.insert_customer(55631 , 'Tejas Bawankar' , '11-JUL-1994' , 27, 8983122563 , 44043, 'Texas' , '71, Pandey layout' , '09-NOV-2019' , 'Aditi@04' , 'Mastaa' , 'Chobugomu');
-execute insert1.insert_customer (76231 , 'Siddharth Savant' , '19-JUL-1996' , 25, 9559240344 , 89645, 'California' , '55, South Nagar' , '26-SEP-2017' , 'Cloud@04' , 'Funnyman' , 'Rowbow2');
-execute insert1.insert_customer (90214 , 'Vaibhavi T' , '09-Oct-1996' , 25, 8149935345 , 77564 , 'Texas' , '71, Effco Way' , '14-OCT-2018' , 'Space@05' , 'Cutiepie' , 'Unicorn');
-execute insert1.insert_customer(87452 , 'Jack Columbus' , '01-jan-1988' , 32, 8149976541 , 72123 , 'Washington','Tempe' , '89, Treat Streat' , '19-Jul-2021' , 'yahoo&5' , 'Lassi' , 'Beatit');
-execute insert1.insert_customer(11075 , 'Will Jackman' , '23-Sep-90' , 32, 8149976541 , 72123 , 'Washington' ,'London', '89, Treat Streat' , '19-Jul-2021' , 'yahoo&5' , 'Lassi' , 'Beatit');
-execute insert1.insert_customer(11070 , 'Ted Artist' , '23-Mar-95' , 32, 8149976541 , 72123 , 'Washington' ,'Wage', '89, Treat Streat' , '19-Jul-2021' , 'yahoo&5' , 'Lassi' , 'Beatit');
-execute insert1.insert_customer(87454 , 'TOAD GUPTA' , '23-Mar-00' , 32, 8149976541 , 72123 , 'Washington' ,'Faang', '89, Treat Streat' , '19-Jul-2021' , 'yahoo&5' , 'Lassi' , 'Beatit');
-execute insert1.insert_customer(66751 , 'HOLLY WITTON' , '11-Nov-90' , 32, 8149976541 , 72123 , 'Washington' ,'Mouth', '89, Treat Streat' , '19-Jul-2021' , 'yahoo&5' , 'Lassi' , 'Beatit');
-execute insert1.insert_customer(11489 , 'Megan Joseph' , '19-Jun-80' , 41, 2347905511 , 72123 , 'Washington' , 'Dallas', '89, Treat Streat' , '19-Jul-2021' , 'yahoo&5' , 'Lassi' , 'Beatit');
+execute insert1.insert_customer(55631 , 'Tejas Bawankar' , '11-JUL-1994' , 27, 8983122563 , 44043, 'Texas' ,'Boston', 'Pandey layout' , '09-NOV-2019' , 'Aditi@04' , 'Mastaa' , 'Chobugomu');
+execute insert1.insert_customer(76231 , 'Siddharth Savant' , '19-JUL-1996' , 25, 9559240344 , 89645, 'California' , '55, South Nagar' , '26-SEP-2017' , 'Cloud@04' , 'Funnyman' , 'Rowbow2');
+execute insert1.insert_customer(90214 , 'Vaibhavi T' , '09-Oct-1996' , 25, 8149935345 , 77564 , 'Texas' ,'71, Effco Way' , '14-OCT-2018' , 'Space@05' , 'Cutiepie' , 'Unicorn');
+execute insert1.insert_customer(87452 , 'Jack Columbus' , '01-jan-1988' , 32, 8149976541 , 72123 , 'Washington', '89, Treat Streat' , '19-Jul-2021' , 'yahoo&5' , 'Lassi' , 'Beatit');
+execute insert1.insert_customer(11075 , 'Will Jackman' , '23-Sep-90' , 32, 8149976541 , 72123 , 'Mason' ,'89, Treat Streat' , '19-Nov-2021' , 'Jahoo&5' , 'Lassi' , 'Beatit1');
+execute insert1.insert_customer(11070 , 'Ted Artist' , '23-Mar-95' , 32, 8149976541 , 72123 , 'Jason' ,'90, Cute Streat' , '19-Aug-2021' , 'Kahoo&5' , 'Jassi' , 'Beatit2');
+execute insert1.insert_customer(87454 , 'TOAD GUPTA' , '23-Mar-00' , 32, 8149976541 , 72123 , 'Fall City' , '101, Acute Streat' , '19-Jul-2021' , 'Lahoo&5' , 'Fassi' , 'Beatit3');
+execute insert1.insert_customer(66751 , 'HOLLY WITTON' , '11-Nov-90' , 32, 8149976541 , 72123 , 'Snow City' , '4, John Streat' , '19-Jul-2021' , 'Mahoo&5' , 'Gassi' , 'Beatit4');
+execute insert1.insert_customer(11489 , 'Megan Joseph' , '19-Jun-80' , 41, 2347905511 , 72123 , 'Manchester City' , '52, False Streat' , '19-Jul-2021' , 'Nahoo&5' , 'Lassi' , 'Beatit5');
 execute insert1.insert_customer (31000,'Anne Maria','02-Apr-1980',41,8576870012,02130,'Arizona','75 Tent Street','13-Jan-2021','Tina@123','tiger','pet')
 execute insert1.insert_customer(31001,'Ted Mosby','03-Jun-1990',32,8576871655,41115,'New Jersey','34 Tremont Street','7-Aug-2019','Kitc@345','pune','mumbai')
 execute insert1.insert_customer(31002,'Bill Gates','04-Sep-1950',71,8547865532,02137,'New Mexico','94 Las Palmas RicoTower','05-Feb-2020','RIYA@me','travel','read')
