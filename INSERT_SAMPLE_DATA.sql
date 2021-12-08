@@ -12,37 +12,36 @@ execute insert1.insert_customer(11070 , 'Ted Artist' , '23-Mar-95' , 32, 8149976
 execute insert1.insert_customer(87454 , 'TOAD GUPTA' , '23-Mar-00' , 32, 8149976541 , 72123 , 'Fall City' , '101, Acute Streat' , '19-Jul-2021' , 'Lahoo&5' , 'Fassi' , 'Beatit3');
 execute insert1.insert_customer(66751 , 'HOLLY WITTON' , '11-Nov-90' , 32, 8149976541 , 72123 , 'Snow City' , '4, John Streat' , '19-Jul-2021' , 'Mahoo&5' , 'Gassi' , 'Beatit4');
 execute insert1.insert_customer(11489 , 'Megan Joseph' , '19-Jun-80' , 41, 2347905511 , 72123 , 'Manchester City' , '52, False Streat' , '19-Jul-2021' , 'Nahoo&5' , 'Lassi' , 'Beatit5');
-execute insert1.insert_customer (31000,'Anne Maria','02-Apr-1980',41,8576870012,02130,'Arizona','75 Tent Street','13-Jan-2021','Tina@123','tiger','pet')
-execute insert1.insert_customer(31001,'Ted Mosby','03-Jun-1990',32,8576871655,41115,'New Jersey','34 Tremont Street','7-Aug-2019','Kitc@345','pune','mumbai')
-execute insert1.insert_customer(31002,'Bill Gates','04-Sep-1950',71,8547865532,02137,'New Mexico','94 Las Palmas RicoTower','05-Feb-2020','RIYA@me','travel','read')
-execute insert1.insert_customer(31003,'Hillary Clinton','05-Sep-1998',23,2347865539,67139,'Florida','51 Venus Ave','21-Jul-2017','Loik@hjk','love','friends')
-execute insert1.insert_customer (31004,'Gauri Pasarkar','10-Dec-1991',31,2347985511,92135,'New York','41 Melvin street','21-Feb-2020','ujki@wer','this','that')
-execute insert1.insert_customer(31005,'Sneha Chavan','10-Oct-1998',23,2347865578,37553,'Florida','22 Park Street','09-May-2019','Toyyy779','meera','mamacita')
-execute insert1.insert_customer (31006,'Ram Wajpe','05-Dec-2004',17,8983122565,74047,'Texas','71 Shivneri nagar','25-Nov-2020','Meer@tuu','school','college')
-execute insert1.insert_customer(31007,'Herika Koshti','06-Dec-1994',27,9759240344,86648,'California','58 North Nagar','28-Jun-2017','Cloud@04','florida','texas')
-execute insert1.insert_customer (31008,'Priyanka Singh','01-Feb-1965',56,7149935345,77597,'Texas','75 Alpha Street','03-Oct-2018','444@hjkk','america','india')
-execute insert1.insert_customer (31009,'Aarti Mehta','02-Mar-1977',44,8169976541,72233,'Washington','101 Harbour point','08-Jul-2021','Tvj@7899','mountain','tesla')
-execute insert1.insert_customer (13459,'Samual Adams','10-NOV-1993',28,6173456712,02120,'Massachussets','21, Barclay avenue','4-Jul-18','sam11','ponyback','sweater')
-execute insert1.insert_customer (43678,'Mary J','5-Dec-1990',31,8571234560,23412,'California','34, saint cakestreet ','16-Aug-17','23fgh','afgan','chair')
-execute insert1.insert_customer (13478,'Mihir Khanna','3-Jan-1985',36,7194567120,21001,'New York','45, baker street','1-Oct-17','yuper11','lamp','pen')
-execute insert1.insert_customer (45912,'Peter Parking','4-Feb-1980',41,6172347098,21304,'New York','45, marker corner street','12-Sep-13','walk123','switch','bottle')
-execute insert1.insert_customer (34157,'Manu Singh','27-Mar-1989',32,6178907222,51111,'Texas','67, yard hall street','22-Jan-13','456sd','sweater','lamp')
-execute insert1.insert_customer(14591,'Divya Sen','15-May-1999',22,3478902450,21334,'Texas','90,alps way','15-Feb-15','assdf','wall','spoon')
-execute insert1.insert_customer(23567,'Josie Blue','5-Dec-1990',31,8572341681,56001,'Virginia','567, wall mount road','12-Feb-18','josie12','garden','flag')
-execute insert1.insert_customer(72012,'Hose mathew','15-Jul-1992',29,6172345098,21333,'Washington','102, walking bistro way','18-Jun-15','san001','button','floor')
-execute insert1.insert_customer (20367,'Carrie Andres','24-May-1977',44,9071267000,60023,'Alaska','71,treat pathway ','16-Jan-20','laptop12','mouse','chain')
-execute insert1.insert_customer (11123,'Andrew Hanson','16-Jul-1950',71,9731230096,32201,'New Jersey','111, baker street ','10-Feb-14','gage456','mat','chakna')
-execute insert1.insert_customer (21000, 'Cristiano Ronaldo','05-FEB-1985',36,8578576969,21209,'Texas',' 34 Tremont Street','18-DEC-17', 'Cris123','striker','penalty')
-execute insert1.insert_customer(21001,'Kevin Owens','09-MAR-1987',34,9282920039,23099,'Massachussets','69, Mountain Street','29-MAR-16','Owns123','wall','lamp')
-execute insert1.insert_customer(21002, 'Kathy Mclerens', '09-APR-1987',34,2287882920,28892,'California','87, Google Street','30-MAR-16','kijuh','Laptop','Apple')
-execute insert1.insert_customer (21003, 'Hanny Osas','09-MAY-1998',23,2288292883,23829,'Illinois','98, Kreson pathway','28-FEB-12','Hanny167','Mango','Sauce')
-execute insert1.insert_customer (21004, 'Orland Sequal','10-OCT-1996',23,2663782883,21201,'Arizona','98, Amazon street', '29-MAY-20','haha981','Sun', 'Desert')
-execute insert1.insert_customer (21005,'Lionel Messi','10-OCT-1998',23,8837728248,98221,'Massachussets','34,Alphosus Street', '31-JAN-21','CrisNo2','GOAT','AlsoBest')
-execute insert1.insert_customer (21006,'Benjamin Cena','12-MAY-1974',50,3546738264,12131,'Washington','98, Hungtington Ave','23-SEP-16','hbb82','Feed','Instagram')
-execute insert1.insert_customer (21007,'Joseph Orton','12-JUN-1974',34,9917717713,31312,'Maryland','76, Solapur','15-SEP-19','nk82','Food','Pav Bhaji')
-execute insert1.insert_customer (21008,'Kane Williamson','03-JAN-1967',54,1772123781,13535,'Florida','87, The rock park','17-AUG-14','mbqi','Misal','Idli')
-execute insert1.insert_customer (21009,'MS Dhoni','03-FEB-1967',28,2663772899,35666,'North Carolina','34, Dou Lane','09-OCT-19','nns','Puranpoli','Dosa')
-    
+execute insert1.insert_customer (31000,'Anne Maria','02-Apr-1980',41,8576870012,02130,'Arizona','75 Tent Street','13-Jan-2021','Tina@123','tiger','pet');
+execute insert1.insert_customer(31001,'Ted Mosby','03-Jun-1990',32,8576871655,41115,'New Jersey','34 Tremont Street','7-Aug-2019','Kitc@345','pune','mumbai');
+execute insert1.insert_customer(31002,'Bill Gates','04-Sep-1950',71,8547865532,02137,'New Mexico','94 Las Palmas RicoTower','05-Feb-2020','RIYA@me','travel','read');
+execute insert1.insert_customer(31003,'Hillary Clinton','05-Sep-1998',23,2347865539,67139,'Florida','51 Venus Ave','21-Jul-2017','Loik@hjk','love','friends');
+execute insert1.insert_customer (31004,'Gauri Pasarkar','10-Dec-1991',31,2347985511,92135,'New York','41 Melvin street','21-Feb-2020','ujki@wer','this','that');
+execute insert1.insert_customer(31005,'Sneha Chavan','10-Oct-1998',23,2347865578,37553,'Florida','22 Park Street','09-May-2019','Toyyy779','meera','mamacita');
+execute insert1.insert_customer (31006,'Ram Wajpe','05-Dec-2004',17,8983122565,74047,'Texas','71 Shivneri nagar','25-Nov-2020','Meer@tuu','school','college');
+execute insert1.insert_customer(31007,'Herika Koshti','06-Dec-1994',27,9759240344,86648,'California','58 North Nagar','28-Jun-2017','Cloud@04','florida','texas');
+execute insert1.insert_customer (31008,'Priyanka Singh','01-Feb-1965',56,7149935345,77597,'Texas','75 Alpha Street','03-Oct-2018','444@hjkk','america','india');
+execute insert1.insert_customer (31009,'Aarti Mehta','02-Mar-1977',44,8169976541,72233,'Washington','101 Harbour point','08-Jul-2021','Tvj@7899','mountain','tesla');
+execute insert1.insert_customer (13459,'Samual Adams','10-NOV-1993',28,6173456712,02120,'Massachussets','21, Barclay avenue','4-Jul-18','sam11','ponyback','sweater');
+execute insert1.insert_customer (43678,'Mary J','5-Dec-1990',31,8571234560,23412,'California','34, saint cakestreet ','16-Aug-17','23fgh','afgan','chair');
+execute insert1.insert_customer (13478,'Mihir Khanna','3-Jan-1985',36,7194567120,21001,'New York','45, baker street','1-Oct-17','yuper11','lamp','pen');
+execute insert1.insert_customer (45912,'Peter Parking','4-Feb-1980',41,6172347098,21304,'New York','45, marker corner street','12-Sep-13','walk123','switch','bottle');
+execute insert1.insert_customer (34157,'Manu Singh','27-Mar-1989',32,6178907222,51111,'Texas','67, yard hall street','22-Jan-13','456sd','sweater','lamp');
+execute insert1.insert_customer(14591,'Divya Sen','15-May-1999',22,3478902450,21334,'Texas','90,alps way','15-Feb-15','assdf','wall','spoon');
+execute insert1.insert_customer(23567,'Josie Blue','5-Dec-1990',31,8572341681,56001,'Virginia','567, wall mount road','12-Feb-18','josie12','garden','flag');
+execute insert1.insert_customer(72012,'Hose mathew','15-Jul-1992',29,6172345098,21333,'Washington','102, walking bistro way','18-Jun-15','san001','button','floor');
+execute insert1.insert_customer (20367,'Carrie Andres','24-May-1977',44,9071267000,60023,'Alaska','71,treat pathway ','16-Jan-20','laptop12','mouse','chain');
+execute insert1.insert_customer (11123,'Andrew Hanson','16-Jul-1950',71,9731230096,32201,'New Jersey','111, baker street ','10-Feb-14','gage456','mat','chakna');
+execute insert1.insert_customer (21000, 'Cristiano Ronaldo','05-FEB-1985',36,8578576969,21209,'Texas',' 34 Tremont Street','18-DEC-17', 'Cris123','striker','penalty');
+execute insert1.insert_customer(21001,'Kevin Owens','09-MAR-1987',34,9282920039,23099,'Massachussets','69, Mountain Street','29-MAR-16','Owns123','wall','lamp');
+execute insert1.insert_customer(21002, 'Kathy Mclerens', '09-APR-1987',34,2287882920,28892,'California','87, Google Street','30-MAR-16','kijuh','Laptop','Apple');
+execute insert1.insert_customer (21003, 'Hanny Osas','09-MAY-1998',23,2288292883,23829,'Illinois','98, Kreson pathway','28-FEB-12','Hanny167','Mango','Sauce');
+execute insert1.insert_customer (21004, 'Orland Sequal','10-OCT-1996',23,2663782883,21201,'Arizona','98, Amazon street', '29-MAY-20','haha981','Sun', 'Desert');
+execute insert1.insert_customer (21005,'Lionel Messi','10-OCT-1998',23,8837728248,98221,'Massachussets','34,Alphosus Street', '31-JAN-21','CrisNo2','GOAT','AlsoBest');
+execute insert1.insert_customer (21006,'Benjamin Cena','12-MAY-1974',50,3546738264,12131,'Washington','98, Hungtington Ave','23-SEP-16','hbb82','Feed','Instagram');
+execute insert1.insert_customer (21007,'Joseph Orton','12-JUN-1974',34,9917717713,31312,'Maryland','76, Solapur','15-SEP-19','nk82','Food','Pav Bhaji');
+execute insert1.insert_customer (21008,'Kane Williamson','03-JAN-1967',54,1772123781,13535,'Florida','87, The rock park','17-AUG-14','mbqi','Misal','Idli');
+execute insert1.insert_customer (21009,'MS Dhoni','03-FEB-1967',28,2663772899,35666,'North Carolina','34, Dou Lane','09-OCT-19','nns','Puranpoli','Dosa');
 
 
 --------------------------------------------MUTUAL FUND DETAILS------------------------------------------------
@@ -100,9 +99,27 @@ execute insert1.insert_mutual_fund_transactions (MT_SEQ.nextval,'MU1014',	31004,
 execute insert1.insert_mutual_fund_transactions (MT_SEQ.nextval,'MU1014',	31004,'18-Mar-21',16,	145.16,'S');
 execute insert1.insert_mutual_fund_transactions (MT_SEQ.nextval,'MU1014',	31004,'9-Dec-21',88,150.14,'S');
 
-
-
-
+------------------------------------------------------STOCK DETAILS----------------------------------------------------
+execute insert1.insert_stock_detail('STOCK001', 'Apple', 'AAPL', 'Technology', 164.94);
+execute insert1.insert_stock_detail('STOCK002', 'Tesla' ,'TSLA', 'EV' ,1160.3);
+execute insert1.insert_stock_detail('STOCK003', 'Moderna', 'MRNA','Pharma', 271.4);
+execute insert1.insert_stock_detail('STOCK004', 'Alphabet', 'GOOGL','Technology', 2922.4);
+execute insert1.insert_stock_detail('STOCK005', 'Amazon' , 'AMZN', 'E-commerce', 3580.41);
+execute insert1.insert_stock_detail('STOCK006', 'Biogen', 'BIIB', 'Pharma', 250.13);
+execute insert1.insert_stock_detail('STOCK007', 'T-Mobile' ,'TMUS', 'Telecom', 114.48);
+execute insert1.insert_stock_detail('STOCK008', 'ElecArts' , 'EA', 'Electronic', 126.25);
+execute insert1.insert_stock_detail('STOCK009', 'Intel' ,'INTC','Technology', 50);
+execute insert1.insert_stock_detail('STOCK010', 'Nvidia', 'NVDA', 'Technology', 326.24);
+execute insert1.insert_stock_detail('STOCK011', 'Dell', 'DELL', 'Technology',57.3);
+execute insert1.insert_stock_detail('STOCK012', 'HP', 'HPQ', 'Technology', 35.44);
+execute insert1.insert_stock_detail('STOCK013', 'Pfizer', 'PFE', 'Pharma', 50.89);
+execute insert1.insert_stock_detail('STOCK014', 'JPMC', 'JPM', 'Banking', 116.89);
+execute insert1.insert_stock_detail('STOCK015', 'Shopify', 'SHOP', 'EComm', 1628.67);
+execute insert1.insert_stock_detail('STOCK016', 'Facebook', 'FB', 'Technology', 341.06);
+execute insert1.insert_stock_detail('STOCK017', 'Adobe', 'ADBE', 'Technology', 668.32);
+execute insert1.insert_stock_detail('STOCK018', 'NextEra', 'NEE', 'Energy', 87.32);
+execute insert1.insert_stock_detail('STOCK019', 'FirstSolar', 'FSLR', 'Energy', 108.28);
+execute insert1.insert_stock_detail('STOCK020', 'JNJ', 'JNJ', 'Pharma', 160.24);
 
 
 
