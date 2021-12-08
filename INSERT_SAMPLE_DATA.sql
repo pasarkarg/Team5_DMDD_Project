@@ -122,6 +122,8 @@ execute insert1.insert_stock_detail('STOCK019', 'FirstSolar', 'FSLR', 'Energy', 
 execute insert1.insert_stock_detail('STOCK020', 'JNJ', 'JNJ', 'Pharma', 160.24);
 
 -------------------------------STOCK_TRANSACTIONS---------------------------------------------------------------------------------
+
+
 execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK001', 'CUST21000',    '20-Jan-21',100,170.89,'B','NYSE');
 execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK001', 'CUST21000',    '21-NOV-21',100,172.76,'S','NYSE');
 execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK002', 'CUST21000',    '20-JUN-21',130,1160.66,'B','NYSE');
@@ -195,8 +197,23 @@ execute insert1.insert_stock_transactions(ST_SEQ.nextval,	'STOCK012',	'CUST21003
 execute insert1.insert_stock_transactions(ST_SEQ.nextval,	'STOCK012', 'CUST21003',	'19-OCT-21',100,    35.87,	'S'	,'NASDAQ');
 
 
+-----------------------------------------------Currency Details---------------------------------------------------------------------------------
 
-
+execute insert1.insert_foreign_exchange_details('CR0001' , 'United States Dollars' , 'United States', 'USD' , 1.000);
+execute insert1.insert_foreign_exchange_details('CR0002' , 'British Pound' , 'United Kingdom' ,'GBP' , 1.338);
+execute insert1.insert_foreign_exchange_details('CR0003' , 'United Arab Emirates Dirham' , 'United Arab Emirates' ,'AED' , 0.273);
+execute insert1.insert_foreign_exchange_details('CR0004' , 'Chinese Yuan Renminbi' , 'China' ,'GBP' , 0.151);
+execute insert1.insert_foreign_exchange_details('CR0005' , 'Euro' , 'Europe Union' ,'EUR' , 1.134);
+execute insert1.insert_foreign_exchange_details('CR0006' , 'Indian Rupee' , 'India' ,'INR' , 0.013);
+execute insert1.insert_foreign_exchange_details('CR0007' , 'Hong Kong Dollar' , 'Hong Kong' ,'HKD' , 0.134);
+execute insert1.insert_foreign_exchange_details('CR0008' , 'Australian Dollar' , 'Australia' ,'AUD' , 0.717);
+execute insert1.insert_foreign_exchange_details('CR0009' , 'Singapore Dollar' , 'Singapore' ,'SGD' , 0.728);
+execute insert1.insert_foreign_exchange_details('CR0010' , 'Swiss Franc' , 'Switzerland' ,'CHF' , 1.080);
+execute insert1.insert_foreign_exchange_details('CR0011' , 'Russian Ruble' , 'Russia' ,'RUB' , 0.0132);
+execute insert1.insert_foreign_exchange_details('CR0012' , 'Japanese Yen' , 'Japan' ,'JPY' , 0.008);
+execute insert1.insert_foreign_exchange_details('CR0013' , 'Canadian Dollar' , 'Canada' ,'CAD' , 0.782);
+execute insert1.insert_foreign_exchange_details('CR0014' , 'Malaysian Ringgit' , 'Malaysia' ,'MYR' , 0.235);
+execute insert1.insert_foreign_exchange_details('CR0015' , 'South African Rand' , 'South Africa' ,'ZAR' , 0.061);
 
 
 
