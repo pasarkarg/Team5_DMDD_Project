@@ -127,7 +127,6 @@ insert1.insert_stock_detail('STOCK020', 'JNJ', 'JNJ', 'Pharma', 160.24);
 
 -------------------------------STOCK_TRANSACTIONS---------------------------------------------------------------------------------
 
-<<<<<<< HEAD
 insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK001', 21000,    '20-Jan-21',100,170.89,'B','NYSE');
 insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK001', 21000,    '21-NOV-21',100,172.76,'S','NYSE');
 insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK002', 21000,    '20-JUN-21',130,1160.66,'B','NYSE');
@@ -202,101 +201,25 @@ insert1.insert_stock_transactions(ST_SEQ.nextval,	'STOCK012', 21003,	'19-OCT-21'
 
 
 
-end;
-
-/
-=======
-
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK001', 'CUST21000',    '20-Jan-21',100,170.89,'B','NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK001', 'CUST21000',    '21-NOV-21',100,172.76,'S','NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK002', 'CUST21000',    '20-JUN-21',130,1160.66,'B','NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK002', 'CUST21000',    '21-SEP-21',130,1162.44,'S','NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK003', 'CUST21001',    '21-FEB-21',60, 275.44, 'B','NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK003', 'CUST21001',    '23-AUG-21',60, 274.66, 'S',    'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK004', 'CUST21001',    '22-MAY-21',20, 2922.44,'B',    'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK004', 'CUST21001',    '11-AUG-21',20, 2930.44,'S',    'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK005', 'CUST21002',    '20-FEB-21',30, 3480.65,'B',    'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK005', 'CUST21002',    '20-SEP-21',30, 3580.44,'S',    'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK006', 'CUST21002',    '15-SEP-21',75, 260.23, 'B',    'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK006', 'CUST21002',    '15-OCT-21',75, 245.56, 'S',    'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK007', 'CUST21003',    '29-APR-21',10, 110.67, 'B',    'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK007', 'CUST21003',    '27-MAY-21',10, 114.32, 'S',    'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK008', 'CUST21003',    '02-JUL-21',500,125.67, 'B',    'NASDAQ');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK008', 'CUST21003',    '27-AUG-21',500,127.66, 'S',    'NASDAQ');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK009', 'CUST21004',    '21-SEP-21',37, 49.32,  'B',    'NASDAQ');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK009', 'CUST21004',    '18-MAY-21',37, 48.34,  'S',    'NASDAQ');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK010', 'CUST21004',    '15-SEP-21',50, 320.56, 'B',    'NASDAQ');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK010', 'CUST21004',    '16-OCT-21',25, 315.32, 'B',    'NASDAQ');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK010', 'CUST21004',    '21-NOV-21',75, 322.56, 'S',    'NASDAQ');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK011', 'CUST21005',    '19-FEB-21',1000,30.56, 'B',    'NASDAQ');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK011', 'CUST21005',    '19-OCT-21',1000,57.11, 'S',    'NASDAQ');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK012', 'CUST21005',    '19-AUG-21',700,40.34,  'B',    'NASDAQ');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK012', 'CUST21005',    '28-OCT-21',600,35.52,  'S',    'NASDAQ');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK012', 'CUST21005',    '30-OCT-21',100,50.45,  'S',    'NASDAQ');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK013', 'CUST21006',    '19-JUN-21',140,47.45,  'B',    'NASDAQ');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK013', 'CUST21006',    '19-SEP-21',100,49.59,  'B',    'NASDAQ');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK013', 'CUST21006',    '20-OCT-21',200,54.87,  'S',    'NASDAQ');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK013', 'CUST21006',    '20-NOV-21',40, 50.32,  'S',    'NASDAQ');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK014', 'CUST21006',    '07-FEB-21',65, 110.76, 'B',    'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK014', 'CUST21006',    '11-NOV-21',65, 115.78, 'S',    'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK015', 'CUST21007',    '05-MAY-21',120,1500.76,'B',    'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK015', 'CUST21007',    '27-SEP-21',120,1628.65,'S',    'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK016', 'CUST21007',    '27-JAN-21',150,330.42, 'B',    'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK016', 'CUST21007',    '27-OCT-21',150,346.98, 'S',    'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK017', 'CUST21008',    '09-JUN-21',980,668.65, 'B',    'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK017', 'CUST21008',    '29-JUL-21',980,630.67, 'S',    'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK018', 'CUST21008',    '18-JAN-21',560,50.76,  'B',    'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK018', 'CUST21008',    '18-SEP-21',560, 80.78,  'S',   'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK019', 'CUST21009',    '21-OCT-21',890,100.34, 'B',    'NASDAQ');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK019', 'CUST21009',    '21-NOV-21',890,108.89, 'S',    'NASDAQ');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK020', 'CUST21009',    '15-JAN-21',560,140.98, 'B',    'NASDAQ');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK020', 'CUST21009',    '15-SEP-21',560,160.32, 'S',    'NASDAQ');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK020',	'CUST21000',	'21-MAR-21',1090,145.98,	    'B'	,'NASDAQ');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval, 'STOCK020',	'CUST21000',	'22-MAR-21',10, 147.02,	    'B'	,'NASDAQ');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval,	'STOCK020',	'CUST21000',	'13-SEP-21',1100,161.22,	    'S'	,'NASDAQ');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval,	'STOCK019',	'CUST21001',	'22-AUG-21',450,101.22,	    'B'	,'NASDAQ');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval,	'STOCK019',	'CUST21001',	'28-SEP-21',450,108.45,	    'S'	,'NASDAQ');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval,	'STOCK018',	'CUST21002',	'18-AUG-21',250,50.76,	    'B'	,'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval,	'STOCK018',	'CUST21002',	'18-OCT-21',250,80.21,	    'S'	,'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval,	'STOCK017',	'CUST21003',	'09-MAY-21',285,658.65,	    'B'	,'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval,	'STOCK017',	'CUST21003',	'29-NOV-21',285,630.87,	    'S'	,'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval,	'STOCK016',	'CUST21004',	'21-FEB-21',660,320,	    'B'	,'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval,	'STOCK016',	'CUST21004',	'28-FEB-21',660,330.33,	    'S'	,'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval,	'STOCK016',	'CUST21004',	'28-FEB-21',660,330.33,	    'S'	,'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval,	'STOCK016',	'CUST21004',	'28-FEB-21',660,330.33,	    'S'	,'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval,	'STOCK015',	'CUST21005',	'5-MAY-21',340,1500.76,	'B'	,'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval,	'STOCK015',	'CUST21005',	'6-MAY-21',340,	   1496.87,	'S'	,'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval,	'STOCK014',	'CUST21005',	'07-FEB-21',890,	110.76,	    'B'	,'NASDAQ');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval,	'STOCK014',	'CUST21005',	'08-FEB-21',310,	100.76,	    'B'	,'NASDAQ');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval,	'STOCK014',	'CUST21005',	'11-NOV-21',1200,	115.76,	    'S'	,'NASDAQ');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval,	'STOCK012',	'CUST21006',	'18-OCT-21',8780,	39.45,	    'B'	,'NASDAQ');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval,	'STOCK012',	'CUST21006',	'20-NOV-21',8780,	46,	        'S'	,'NASDAQ');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval,	'STOCK001',	'CUST21006',	'20-MAR-21',340,    170.48,	    'B'	,'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval,   'STOCK001',	'CUST21006',	'21-NOV-21',340,	169.38,	    'S'	,'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval,	'STOCK002',	'CUST21007',	'21-JAN-21',60,	    1160.33,	'B'	,'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval,	'STOCK002',	'CUST21007',	'17-DEC-21',50,	    1170.65,	'S'	,'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval,	'STOCK002',	'CUST21007',	'18-DEC-21',10,	   1173.98,	'S'	,'NYSE');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval,	'STOCK012',	'CUST21003',	'18-OCT-21',100,    15.89,	    'B'	,'NASDAQ');
-execute insert1.insert_stock_transactions(ST_SEQ.nextval,	'STOCK012', 'CUST21003',	'19-OCT-21',100,    35.87,	'S'	,'NASDAQ');
-
-
 -----------------------------------------------Currency Details---------------------------------------------------------------------------------
 
-execute insert1.insert_foreign_exchange_details('CR0001' , 'United States Dollars' , 'United States', 'USD' , 1.000);
-execute insert1.insert_foreign_exchange_details('CR0002' , 'British Pound' , 'United Kingdom' ,'GBP' , 1.338);
-execute insert1.insert_foreign_exchange_details('CR0003' , 'United Arab Emirates Dirham' , 'United Arab Emirates' ,'AED' , 0.273);
-execute insert1.insert_foreign_exchange_details('CR0004' , 'Chinese Yuan Renminbi' , 'China' ,'GBP' , 0.151);
-execute insert1.insert_foreign_exchange_details('CR0005' , 'Euro' , 'Europe Union' ,'EUR' , 1.134);
-execute insert1.insert_foreign_exchange_details('CR0006' , 'Indian Rupee' , 'India' ,'INR' , 0.013);
-execute insert1.insert_foreign_exchange_details('CR0007' , 'Hong Kong Dollar' , 'Hong Kong' ,'HKD' , 0.134);
-execute insert1.insert_foreign_exchange_details('CR0008' , 'Australian Dollar' , 'Australia' ,'AUD' , 0.717);
-execute insert1.insert_foreign_exchange_details('CR0009' , 'Singapore Dollar' , 'Singapore' ,'SGD' , 0.728);
-execute insert1.insert_foreign_exchange_details('CR0010' , 'Swiss Franc' , 'Switzerland' ,'CHF' , 1.080);
-execute insert1.insert_foreign_exchange_details('CR0011' , 'Russian Ruble' , 'Russia' ,'RUB' , 0.0132);
-execute insert1.insert_foreign_exchange_details('CR0012' , 'Japanese Yen' , 'Japan' ,'JPY' , 0.008);
-execute insert1.insert_foreign_exchange_details('CR0013' , 'Canadian Dollar' , 'Canada' ,'CAD' , 0.782);
-execute insert1.insert_foreign_exchange_details('CR0014' , 'Malaysian Ringgit' , 'Malaysia' ,'MYR' , 0.235);
-execute insert1.insert_foreign_exchange_details('CR0015' , 'South African Rand' , 'South Africa' ,'ZAR' , 0.061);
+insert1.insert_foreign_exchange_details('CR0001' , 'United States Dollars' , 'United States', 'USD' , 1.000);
+insert1.insert_foreign_exchange_details('CR0002' , 'British Pound' , 'United Kingdom' ,'GBP' , 1.338);
+insert1.insert_foreign_exchange_details('CR0003' , 'United Arab Emirates Dirham' , 'United Arab Emirates' ,'AED' , 0.273);
+insert1.insert_foreign_exchange_details('CR0004' , 'Chinese Yuan Renminbi' , 'China' ,'GBP' , 0.151);
+insert1.insert_foreign_exchange_details('CR0005' , 'Euro' , 'Europe Union' ,'EUR' , 1.134);
+insert1.insert_foreign_exchange_details('CR0006' , 'Indian Rupee' , 'India' ,'INR' , 0.013);
+insert1.insert_foreign_exchange_details('CR0007' , 'Hong Kong Dollar' , 'Hong Kong' ,'HKD' , 0.134);
+insert1.insert_foreign_exchange_details('CR0008' , 'Australian Dollar' , 'Australia' ,'AUD' , 0.717);
+insert1.insert_foreign_exchange_details('CR0009' , 'Singapore Dollar' , 'Singapore' ,'SGD' , 0.728);
+insert1.insert_foreign_exchange_details('CR0010' , 'Swiss Franc' , 'Switzerland' ,'CHF' , 1.080);
+insert1.insert_foreign_exchange_details('CR0011' , 'Russian Ruble' , 'Russia' ,'RUB' , 0.0132);
+insert1.insert_foreign_exchange_details('CR0012' , 'Japanese Yen' , 'Japan' ,'JPY' , 0.008);
+insert1.insert_foreign_exchange_details('CR0013' , 'Canadian Dollar' , 'Canada' ,'CAD' , 0.782);
+insert1.insert_foreign_exchange_details('CR0014' , 'Malaysian Ringgit' , 'Malaysia' ,'MYR' , 0.235);
+insert1.insert_foreign_exchange_details('CR0015' , 'South African Rand' , 'South Africa' ,'ZAR' , 0.061);
+
+
 ---------------------------------------------------CryptoTransaction----------------------------------------------------------------------
 
 insert1.insert_crypto_transaction('CRYPT000I',	11123,	'3-Mar-21'	,'B',	20,	207.94,	'KUCOIN');
@@ -414,4 +337,6 @@ insert1.insert_crypto_transaction('CRYPT000I',	11123,	'16-Mar-21'	,'S',	10,	105.
  insert1.insert_crypto_transaction('CRYPT000Q',	90214,	'28-Jan-21'	,'B',	150,	365.53,	'COINBASE');
  insert1.insert_crypto_transaction('CRYPT000T',	90214,	'11-Sep-21'	,'S',	15,	340.53,	'COINBASE');
  insert1.insert_crypto_transaction('CRYPT000T',	90214,	'21-Dec-21'	,'S',	135,	365.53,	'COINBASE');
->>>>>>> 216aa541e776aedb4f3fd744aedd3e9989921126
+
+end;
+/
