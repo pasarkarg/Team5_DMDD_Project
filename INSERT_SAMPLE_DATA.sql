@@ -411,9 +411,7 @@ insert1.insert_crypto_transaction(CT_SEQ.nextval,'CRYPTO00I',	34749,	'18-Nov-21'
  insert1.insert_crypto_transaction(CT_SEQ.nextval,'CRYPTO00T',	90214,	'21-Dec-21'	,'S',	135,	365.53,	'COINBASE',365.53);
 
 
-----------------------------------------------------------CUSTOMER FINANCIAL DETAILS---------------------------------------------------------------------------
-
-
+                                  ------Customer Financial Details-----------
 insert1.insert_cfinancial_detail(11489 ,67521,0,'IT',30140);
 insert1.insert_cfinancial_detail(34749 ,70123,23456,'Sales',41234);
 insert1.insert_cfinancial_detail(55631 ,88987,525,'Manufacturing',2000);
@@ -425,6 +423,50 @@ insert1.insert_cfinancial_detail(11070 ,91234,2200,'IT',43234);
 insert1.insert_cfinancial_detail(87454 ,78098,1500,'PreSales',30987);
 insert1.insert_cfinancial_detail(66751 ,87908,0,'HR',23456);
 insert1.insert_cfinancial_detail(11489 ,54345,300,'Sales',16789);
+insert1.insert_cfinancial_detail(31000,33535,543,'Manufacturing',65766);
+insert1.insert_cfinancial_detail(31001,35353,454,'Sales',65445);
+insert1.insert_cfinancial_detail(31002,35465,454,'IT',46656);
+insert1.insert_cfinancial_detail(31003,64645,465,'Manufacturing',57575);
+insert1.insert_cfinancial_detail(31004,87687,566,'Accounting',56456);
+insert1.insert_cfinancial_detail(31005,76776,564,'Business',646346);
+insert1.insert_cfinancial_detail(31006,65768,453,'Medical',56465);
+insert1.insert_cfinancial_detail(31007,76879,666,'Business',634555);
+insert1.insert_cfinancial_detail(31008,65566,466,'Manufacturing',64565);
+insert1.insert_cfinancial_detail(31009,89797,0,'IT',65645);
+insert1.insert_cfinancial_detail(13459,76878,0,'Business',574557);
+insert1.insert_cfinancial_detail(43678,98798,66,'Sales',54745);
+insert1.insert_cfinancial_detail(13478,97809,75,'HR',46564);
+insert1.insert_cfinancial_detail(45912,76578,787,'Medical',43446);
+insert1.insert_cfinancial_detail(34157,8978,76,'Accounting',55775);
+insert1.insert_cfinancial_detail(14591,98790,0,'Sales',567546);
+insert1.insert_cfinancial_detail(23567,76878,0,'HR',545656);
+insert1.insert_cfinancial_detail(72012,76668,64,'Sales',57685);
+insert1.insert_cfinancial_detail(20367,67567,577,'Medical',574565);
+insert1.insert_cfinancial_detail(11123,54564,0,'Business',567666);
+insert1.insert_cfinancial_detail(21000,56456,56,'Retails',344465);
+insert1.insert_cfinancial_detail(21001,67567,907,'HR',38755);
+insert1.insert_cfinancial_detail(21002,45463,670,'Doctor',84645);
+insert1.insert_cfinancial_detail(21003,53453,6870,'IT',75657);
+insert1.insert_cfinancial_detail(21004,53534,88,'Doctor',764535);
+insert1.insert_cfinancial_detail(21005,46456,0,'IT',574565);
+insert1.insert_cfinancial_detail(21006,43646,658,'Sales',57456);
+insert1.insert_cfinancial_detail(21007,63453,0,'Sales',434468);
+insert1.insert_cfinancial_detail(21008,34363,568,'Manufacturing',54766);
+insert1.insert_cfinancial_detail(21009,34663,79,'IT',46566);
+
+                    ----------------Customer Feedback-------------------
+insert1.insert_feedback(FEEDBACK_SEQ.nextval,21000,'Apple Stock', 9, 'Long term growth');
+insert1.insert_feedback(FEEDBACK_SEQ.nextval,21000, 'Tesla Stoc', 10, 'Good Gains');
+insert1.insert_feedback(FEEDBACK_SEQ.nextval,13478, 'Bitcoin', 10, 'Highly Volatile');
+insert1.insert_feedback(FEEDBACK_SEQ.nextval,14591, 'Quant', 3, 'Lost My Money');
+insert1.insert_feedback(FEEDBACK_SEQ.nextval,21002, 'Amazon', 8, 'Saturation, slow growth');
+insert1.insert_feedback(FEEDBACK_SEQ.nextval,21006, 'Apple Stock', 10, 'Good Returns');
+insert1.insert_feedback(FEEDBACK_SEQ.nextval,31000, 'Mid Cap', 9, 'Relax and Invest');
+insert1.insert_feedback(FEEDBACK_SEQ.nextval,31001, 'Blue Chip', 9, 'Trusted fund');
+insert1.insert_feedback(FEEDBACK_SEQ.nextval,13478, 'Etherum', 10, 'Future Crypto');
+insert1.insert_feedback(FEEDBACK_SEQ.nextval,11075, 'British Pound', 7, 'Not trusted after brexit');
+insert1.insert_feedback(FEEDBACK_SEQ.nextval,11489, 'Indian Rupee', 7, 'Not Stable');
+insert1.insert_feedback(FEEDBACK_SEQ.nextval,31003, 'Aditya Birla', 10, 'Good Growth');
 
 end;
 /
