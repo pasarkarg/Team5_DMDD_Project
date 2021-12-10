@@ -1,7 +1,8 @@
 
 set SERVEROUTPUT on
-
+set define off;
 BEGIN
+
 
 
 insert1.insert_customer(11489 , 'Megan Joseph' , '19-Jun-1980' , 41, 2347905511 , 92133 , 'New York' ,'41, Melvin street' , '22-FEB-2020' , 'Knight@1' , 'Safforn' , 'Balling');
@@ -69,7 +70,7 @@ insert1.insert_mutual_fund_details('MU1015' , 'Kotak Small Cap Fund' , 'Low' , 5
 insert1.insert_mutual_fund_transactions (MT_SEQ.nextval,'MU1002',	31000,'20-Jan-21',30,99.12,'B',99.12 );
 insert1.insert_mutual_fund_transactions (MT_SEQ.nextval,'MU1002',	31000,'21-Jan-21',20,100,'B', 100);
 insert1.insert_mutual_fund_transactions (MT_SEQ.nextval,'MU1002',	31000,'21-Jan-21',20,100,'B', 100);
-insert1.insert_mutual_fund_transactions (MT_SEQ.nextval,'MU1002',	31000,'15-Feb-21',50,97.12,'S' 97.12);
+insert1.insert_mutual_fund_transactions (MT_SEQ.nextval,'MU1002',	31000,'15-Feb-21',50,97.12,'S' ,97.12);
 insert1.insert_mutual_fund_transactions (MT_SEQ.nextval,'MU1002',	31000,'24-Mar-21',20,96.67,'S', 96.67);
 insert1.insert_mutual_fund_transactions (MT_SEQ.nextval,'MU1003',	31001,'12-Feb-21',10,179.65,'B',179.65);
 insert1.insert_mutual_fund_transactions (MT_SEQ.nextval,'MU1003',	31001,'15-Mar-21',15,178,'B', 178);
@@ -408,7 +409,6 @@ insert1.insert_crypto_transaction(CT_SEQ.nextval,'CRYPTO00I',	34749,	'18-Nov-21'
  insert1.insert_crypto_transaction(CT_SEQ.nextval,'CRYPTO00Q',	90214,	'28-Jan-21'	,'B',	150,	365.53,	'COINBASE',365.53);
  insert1.insert_crypto_transaction(CT_SEQ.nextval,'CRYPTO00T',	90214,	'11-Sep-21'	,'S',	15,	340.53,	'COINBASE',340.53);
  insert1.insert_crypto_transaction(CT_SEQ.nextval,'CRYPTO00T',	90214,	'21-Dec-21'	,'S',	135,	365.53,	'COINBASE',365.53);
-
 
 
 ----------------------------------------------------------CUSTOMER FINANCIAL DETAILS---------------------------------------------------------------------------
