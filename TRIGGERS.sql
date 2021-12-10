@@ -11,3 +11,13 @@ where crypto_id =  :old.crypto_id;
 end;
 
 /
+
+create or replace trigger stockprice_update
+
+after update of stock_current_price on stock_details
+for each row
+begin
+update stock_transactions set stock_latest_price = : new.stock_current_price
+where stock_id =  :old.stock_id;
+end;
+/
