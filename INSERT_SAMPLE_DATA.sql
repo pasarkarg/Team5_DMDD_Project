@@ -411,5 +411,22 @@ insert1.insert_crypto_transaction(CT_SEQ.nextval,'CRYPTO00I',	34749,	'18-Nov-21'
  insert1.insert_crypto_transaction(CT_SEQ.nextval,'CRYPTO00T',	90214,	'11-Sep-21'	,'S',	15,	340.53,	'COINBASE');
  insert1.insert_crypto_transaction(CT_SEQ.nextval,'CRYPTO00T',	90214,	'21-Dec-21'	,'S',	135,	365.53,	'COINBASE');
 
+
+
+----------------------------------------------------------CUSTOMER FINANCIAL DETAILS---------------------------------------------------------------------------
+
+
+insert1.insert_cfinancial_detail(11489 ,67521,0,'IT',30140);
+insert1.insert_cfinancial_detail(34749 ,70123,23456,'Sales',41234);
+insert1.insert_cfinancial_detail(55631 ,88987,525,'Manufacturing',2000);
+insert1.insert_cfinancial_detail(76231 ,99876,0,'IT',42345);
+insert1.insert_cfinancial_detail(90214 ,34567,45678,'Pre-Sales',11123);
+insert1.insert_cfinancial_detail(87452 ,64321,234,'Retail',23456);
+insert1.insert_cfinancial_detail(11075 ,75643,0,'HR',33000);
+insert1.insert_cfinancial_detail(11070 ,91234,2200,'IT',43234);
+insert1.insert_cfinancial_detail(87454 ,78098,1500,'PreSales',30987);
+insert1.insert_cfinancial_detail(66751 ,87908,0,'HR',23456);
+insert1.insert_cfinancial_detail(11489 ,54345,300,'Sales',16789);
+
 end;
 /
