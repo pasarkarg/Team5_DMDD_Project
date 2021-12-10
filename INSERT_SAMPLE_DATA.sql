@@ -102,6 +102,11 @@ insert1.insert_mutual_fund_transactions (MT_SEQ.nextval,'MU1014',	31004,'18-Nov-
 insert1.insert_mutual_fund_transactions (MT_SEQ.nextval,'MU1014',	31004,'14-Oct-21',58,	127.09,'B');
 insert1.insert_mutual_fund_transactions (MT_SEQ.nextval,'MU1014',	31004,'18-Mar-21',16,	145.16,'S');
 insert1.insert_mutual_fund_transactions (MT_SEQ.nextval,'MU1014',	31004,'9-Dec-21',88,150.14,'S');
+insert1.insert_mutual_fund_transactions (MT_SEQ.nextval,'MU1015',	31005,'23-Jan-21',104,	52.09,'B');
+insert1.insert_mutual_fund_transactions (MT_SEQ.nextval,'MU1015',	31005,'23-Feb-21',208,	49.14,'B');
+insert1.insert_mutual_fund_transactions (MT_SEQ.nextval,'MU1015',	31005,'19-Mar-21',137,	48.14,'B');
+insert1.insert_mutual_fund_transactions (MT_SEQ.nextval,'MU1015',	31005,'19-May-21',312,	58.15,'S');
+insert1.insert_mutual_fund_transactions (MT_SEQ.nextval,'MU1015',	31005,'22-Jul-21',137,	66.25,'S');
 
 --------------------------------------------STOCK DETAILS----------------------------------------------------
 insert1.insert_stock_detail('STOCK001', 'Apple', 'AAPL', 'Technology', 164.94);
