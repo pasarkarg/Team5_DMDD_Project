@@ -21,3 +21,14 @@ update stock_transactions set stock_latest_price = : new.stock_current_price
 where stock_id =  :old.stock_id;
 end;
 /
+
+-------------------MUTUALFUND-----------------------------------------------------------------------------------------
+create or replace trigger mutualfund_update
+
+after update of mutual_current_nav on mutual_fund_details
+for each row
+begin
+update mutual_fund_transactions set mutual_latest_price = : new.mutual_current_nav
+where mutual_scheme_id=  :old.mutual_scheme_id;
+end;
+/
