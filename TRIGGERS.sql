@@ -32,3 +32,16 @@ update mutual_fund_transactions set mutual_latest_price = : new.mutual_current_n
 where mutual_scheme_id=  :old.mutual_scheme_id;
 end;
 /
+
+
+------------------------Currency Transaction------------------------
+
+create or replace trigger forex_update
+
+after update of currency_current_price on foreign_exchange_details
+for each row
+begin
+update foreign_exchange_transactions set fex_latest_price = : new.currency_current_price
+where purchased_currency_id =  :old.currency_id;
+end;
+/
