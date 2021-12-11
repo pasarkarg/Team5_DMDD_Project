@@ -1,6 +1,6 @@
 CREATE OR REPLACE PACKAGE INSERT1 
 AS
-procedure insert_customer(customerid in number, cname varchar2,dob in date, age in number, contact in number, zip in number, statename in VARCHAR2, address in varchar2, profilecreationdate in date,
+procedure insert_customer(customerid in number, cname varchar2,dob in date, age in number, contact in number, zip in VARCHAR2, statename in VARCHAR2, address in varchar2, profilecreationdate in date,
 cpassword in varchar2, security_answer1 in varchar2, security_answer2 in varchar2);
 procedure insert_mutual_fund_details(schemeid in varchar2, mname in varchar2, risk in varchar2, netav in number );
 procedure insert_mutual_fund_transactions(transactid in number, schemeid in varchar2, customerid in number, transacdate in date, units in number, 
@@ -19,7 +19,7 @@ END INSERT1;
 set define off;
 create or replace package body INSERT1
 AS
-PROCEDURE insert_customer(customerid in number,cname varchar2, dob in date, age in number, contact in number, zip in number, statename in VARCHAR2, address in varchar2, profilecreationdate in date,
+PROCEDURE insert_customer(customerid in number,cname varchar2, dob in date, age in number, contact in number, zip in VARCHAR2, statename in VARCHAR2, address in varchar2, profilecreationdate in date,
 cpassword in varchar2, security_answer1 in varchar2, security_answer2 in varchar2) as
 begin
 
@@ -66,8 +66,6 @@ when dup_val_on_index
   then 
   
 dbms_output.put_line('Duplicate row');
-
-
 
 end insert_mutual_fund_transactions;
 

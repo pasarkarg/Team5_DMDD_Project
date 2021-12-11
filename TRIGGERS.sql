@@ -12,6 +12,9 @@ end;
 
 /
 
+
+-----------------------------------------------STOCK---------------------------------------
+
 create or replace trigger stockprice_update
 
 after update of stock_current_price on stock_details
@@ -22,7 +25,22 @@ where stock_id =  :old.stock_id;
 end;
 /
 
--------------------MUTUALFUND-----------------------------------------------------------------------------------------
+------------------------------------------ForeignCurrency-----------------------------------
+
+create or replace trigger forex_update
+
+after update of currency_current_price on foreign_exchange_details
+for each row
+begin
+update foreign_exchange_transactions set fex_latest_price = : new.currency_current_price
+where purchased_currency_id =  :old.currency_id;
+end;
+/
+
+
+-------------------------------------MutualFund-----------------------------------------------
+
+
 create or replace trigger mutualfund_update
 
 after update of mutual_current_nav on mutual_fund_details
@@ -34,14 +52,12 @@ end;
 /
 
 
-------------------------Currency Transaction------------------------
 
-create or replace trigger forex_update
 
-after update of currency_current_price on foreign_exchange_details
-for each row
-begin
-update foreign_exchange_transactions set fex_latest_price = : new.currency_current_price
-where purchased_currency_id =  :old.currency_id;
-end;
-/
+
+
+
+
+
+
+

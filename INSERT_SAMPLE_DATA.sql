@@ -1,6 +1,47 @@
-
 set SERVEROUTPUT on
 set define off;
+
+drop sequence CT_seq;
+drop sequence FT_seq;
+drop sequence MT_seq;
+drop sequence ST_seq;
+drop sequence feedback_seq;
+
+CREATE SEQUENCE ST_SEQ
+    INCREMENT BY 1
+    START WITH 10000000
+    MINVALUE 10000000
+    MAXVALUE 19999999
+    CACHE 20;
+
+
+CREATE SEQUENCE MT_SEQ
+    INCREMENT BY 1
+    START WITH 20000000
+    MINVALUE 20000000
+    MAXVALUE 29999999
+    CACHE 20;
+    
+CREATE SEQUENCE CT_SEQ
+    INCREMENT BY 1
+    START WITH 30000000
+    MINVALUE 30000000
+    MAXVALUE 39999999
+    CACHE 20;
+    
+CREATE SEQUENCE FT_SEQ
+    INCREMENT BY 1
+    START WITH 40000000
+    MINVALUE 40000000
+    MAXVALUE 49999999
+    CACHE 20;
+    
+CREATE SEQUENCE FEEDBACK_SEQ
+    INCREMENT BY 1
+    START WITH 1
+    MINVALUE 1
+    MAXVALUE 10000000
+    CACHE 20;
 BEGIN
 
 
@@ -411,7 +452,9 @@ insert1.insert_crypto_transaction(CT_SEQ.nextval,'CRYPTO00I',	34749,	'18-Nov-21'
  insert1.insert_crypto_transaction(CT_SEQ.nextval,'CRYPTO00T',	90214,	'21-Dec-21'	,'S',	135,	365.53,	'COINBASE',365.53);
 
 
-                                  ------Customer Financial Details-----------
+----------------------------------------------------------CUSTOMER FINANCIAL DETAILS---------------------------------------------------------------------------
+
+
 insert1.insert_cfinancial_detail(11489 ,67521,0,'IT',30140);
 insert1.insert_cfinancial_detail(34749 ,70123,23456,'Sales',41234);
 insert1.insert_cfinancial_detail(55631 ,88987,525,'Manufacturing',2000);
@@ -422,7 +465,6 @@ insert1.insert_cfinancial_detail(11075 ,75643,0,'HR',33000);
 insert1.insert_cfinancial_detail(11070 ,91234,2200,'IT',43234);
 insert1.insert_cfinancial_detail(87454 ,78098,1500,'PreSales',30987);
 insert1.insert_cfinancial_detail(66751 ,87908,0,'HR',23456);
-insert1.insert_cfinancial_detail(11489 ,54345,300,'Sales',16789);
 insert1.insert_cfinancial_detail(31000,33535,543,'Manufacturing',65766);
 insert1.insert_cfinancial_detail(31001,35353,454,'Sales',65445);
 insert1.insert_cfinancial_detail(31002,35465,454,'IT',46656);
@@ -454,7 +496,9 @@ insert1.insert_cfinancial_detail(21007,63453,0,'Sales',434468);
 insert1.insert_cfinancial_detail(21008,34363,568,'Manufacturing',54766);
 insert1.insert_cfinancial_detail(21009,34663,79,'IT',46566);
 
-                    ----------------Customer Feedback-------------------
+
+
+----------------Customer Feedback-------------------
 insert1.insert_feedback(FEEDBACK_SEQ.nextval,21000,'Apple Stock', 9, 'Long term growth');
 insert1.insert_feedback(FEEDBACK_SEQ.nextval,21000, 'Tesla Stoc', 10, 'Good Gains');
 insert1.insert_feedback(FEEDBACK_SEQ.nextval,13478, 'Bitcoin', 10, 'Highly Volatile');
@@ -467,6 +511,11 @@ insert1.insert_feedback(FEEDBACK_SEQ.nextval,13478, 'Etherum', 10, 'Future Crypt
 insert1.insert_feedback(FEEDBACK_SEQ.nextval,11075, 'British Pound', 7, 'Not trusted after brexit');
 insert1.insert_feedback(FEEDBACK_SEQ.nextval,11489, 'Indian Rupee', 7, 'Not Stable');
 insert1.insert_feedback(FEEDBACK_SEQ.nextval,31003, 'Aditya Birla', 10, 'Good Growth');
+
+
+
+
+
 
 end;
 /
