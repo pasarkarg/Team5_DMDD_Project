@@ -49,20 +49,16 @@ begin
 
 
 
---select count(*) into countUnique from CUSTOMER_details where C_EMAIL = EMAIL;
---select count(*) into count from CUSTOMER_details where C_SSN = SSN;
+
 Select nvl(MAX(customer_id),0) into MAXCUST_ID from customer_details;
 MAX_CID := MAXCUST_ID + 1;
 
 
 
---IF(countSSN>0)
---then raise SSN_unique;
-
 
 
 IF
---validate_conversion(ZIPCODE as number)=0 and ZIPCODE<>5
+
 is_number(zipcode) = 0 or length(zipcode)<> 5
 THEN RAISE ZIPCODE_NOTNUMBER;
 
