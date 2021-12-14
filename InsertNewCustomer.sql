@@ -36,6 +36,7 @@ is
 MAX_CID number;
 MAXCUST_ID number;
 Contact_error Exception;
+Uniquename exception;
 CountUnique number;
 ZIPCODE_NOTNUMBER exception;
 customer_name_invalid exception;
@@ -50,15 +51,19 @@ begin
 
 
 
+select count(*) into CountUnique from customer_details where customer_name = c_name;
 Select nvl(MAX(customer_id),0) into MAXCUST_ID from customer_details;
 MAX_CID := MAXCUST_ID + 1;
 
 
 
 
-
 IF
 
+(CountUnique>0)
+then raise Uniquename ;
+
+ELSIf
 is_number(zipcode) = 0 or length(zipcode)<> 5
 THEN RAISE ZIPCODE_NOTNUMBER;
 
@@ -116,13 +121,16 @@ When ZIPCODE_NOTNUMBER Then
 raise_application_error (-20002,'ZIPCODE SHOULD CONTAIN ONLY NUMBERS and should be 5 digits');
 when customer_name_invalid then
 raise_application_error (-20003,'customer name should not be null');
+when Uniquename then
+
+raise_application_error (-20004,'customer name should be unique');
 
 
 end;
 /
 
 
-select * from customer_details where customer_id = 90215;
+select * from customer_details;
 
-exec insert_newcustomer('wuping wang' , '11-NOV-1992' , 41, 2347865588 , '12345', 'FLORIDA' , '22, Park Street' , '17-MAY-2019' , 'Toyyy777' , 'Sanban*8' , 'Yussss');
+exec insert_newcustomer('MS Dhon' , '11-NOV-1992' , 41, 2347865588 , '12345', 'FLORIDA' , '22, Park Street' , '17-MAY-2019' , 'Toyyy777' , 'Sanban*8' , 'Yussss');
 
