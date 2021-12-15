@@ -75,5 +75,3 @@ grant Read_View to Customer;
 
 
 
-VW_STOCK_STATISTICS
-
