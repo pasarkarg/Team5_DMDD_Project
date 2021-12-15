@@ -499,18 +499,18 @@ insert1.insert_cfinancial_detail(21009,34663,79,'IT',46566);
 
 
 ----------------Customer Feedback-------------------
-insert1.insert_feedback(FEEDBACK_SEQ.nextval,21000,'Apple Stock', 9, 'Long term growth');
-insert1.insert_feedback(FEEDBACK_SEQ.nextval,21000, 'Tesla Stoc', 10, 'Good Gains');
-insert1.insert_feedback(FEEDBACK_SEQ.nextval,13478, 'Bitcoin', 10, 'Highly Volatile');
-insert1.insert_feedback(FEEDBACK_SEQ.nextval,14591, 'Quant', 3, 'Lost My Money');
-insert1.insert_feedback(FEEDBACK_SEQ.nextval,21002, 'Amazon', 8, 'Saturation, slow growth');
-insert1.insert_feedback(FEEDBACK_SEQ.nextval,21006, 'Apple Stock', 10, 'Good Returns');
-insert1.insert_feedback(FEEDBACK_SEQ.nextval,31000, 'Mid Cap', 9, 'Relax and Invest');
-insert1.insert_feedback(FEEDBACK_SEQ.nextval,31001, 'Blue Chip', 9, 'Trusted fund');
-insert1.insert_feedback(FEEDBACK_SEQ.nextval,13478, 'Etherum', 10, 'Future Crypto');
-insert1.insert_feedback(FEEDBACK_SEQ.nextval,11075, 'British Pound', 7, 'Not trusted after brexit');
-insert1.insert_feedback(FEEDBACK_SEQ.nextval,11489, 'Indian Rupee', 7, 'Not Stable');
-insert1.insert_feedback(FEEDBACK_SEQ.nextval,31003, 'Aditya Birla', 10, 'Good Growth');
+insert1.insert_feedback(FEEDBACK_SEQ.nextval,21006,'STOCK013', 'STOCK','Pfizer', 9, 'Long term growth');
+insert1.insert_feedback(FEEDBACK_SEQ.nextval,31001, 'MU1003',  'MUTUAL','Principal Emerging Bluechip Fund-Growth', 10, 'Good Gains');
+insert1.insert_feedback(FEEDBACK_SEQ.nextval,90214,'CRYPTO00T','CRYPTO','KUSAMA', 10, 'Highly Volatile');
+insert1.insert_feedback(FEEDBACK_SEQ.nextval,11075, 'CR0001',  'CURRENCY','United States Dollars' ,3, 'Lost My Money');
+insert1.insert_feedback(FEEDBACK_SEQ.nextval,21009, 'STOCK020', 'STOCK','JNJ', 8, 'Saturation, slow growth');
+insert1.insert_feedback(FEEDBACK_SEQ.nextval,31004, 'MU1014' ,  'MUTUAL', 'Sundaram Select Micro Cap',10, 'Good Returns');
+insert1.insert_feedback(FEEDBACK_SEQ.nextval,13478,  'CRYPTO00B','CRYPTO','ETHEREUM', 9, 'Relax and Invest');
+insert1.insert_feedback(FEEDBACK_SEQ.nextval,14591,  'CR0009' ,'CURRENCY', 'Singapore Dollar', 9, 'Trusted fund');
+insert1.insert_feedback(FEEDBACK_SEQ.nextval,21005,  'CR0013' ,'CURRENCY', 'Canadian Dollar', 7, 'Longterm fund');
+insert1.insert_feedback(FEEDBACK_SEQ.nextval,13478,  'CRYPTO00A','CRYPTO','BITCOIN', 10, 'Future Crypto');
+insert1.insert_feedback(FEEDBACK_SEQ.nextval,21003,  'STOCK007', 'STOCK', 'T-Mobile', 7, 'Not trusted after brexit');
+insert1.insert_feedback(FEEDBACK_SEQ.nextval,11489,  'MU1002','MUTUAL', 'L&T Midcap-Growth', 8, 'Not Stable');
 
 
 
