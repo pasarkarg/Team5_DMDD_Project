@@ -1,11 +1,6 @@
 set SERVEROUTPUT on
 set define off;
 
-drop sequence CT_seq;
-drop sequence FT_seq;
-drop sequence MT_seq;
-drop sequence ST_seq;
-drop sequence feedback_seq;
 
 CREATE SEQUENCE ST_SEQ
     INCREMENT BY 1
@@ -42,20 +37,19 @@ CREATE SEQUENCE FEEDBACK_SEQ
     MINVALUE 1
     MAXVALUE 10000000
     CACHE 20;
+
 BEGIN
-
-
 
 insert1.insert_customer(11489 , 'Megan Joseph' , '19-Jun-1980' , 41, 2347905511 , 92133 , 'New York' ,'41, Melvin street' , '22-FEB-2020' , 'Knight@1' , 'Safforn' , 'Balling');
 insert1.insert_customer(34749 , 'Wane Fox' , '11-NOV-1992' , 31, 2347865588 , 37553 , 'FLORIDA' , '22, Park Street' , '17-MAY-2019' , 'Toyyy777' , 'Sanban*8' , 'Yussss');
 insert1.insert_customer(55631 , 'Tejas Bawankar' , '11-JUL-1994' , 27, 8983122563 , 44043, 'Texas', 'Pandey layout' , '09-NOV-2019' , 'Aditi@04' , 'Mastaa' , 'Chobugomu');
 insert1.insert_customer(76231 , 'Siddharth Savant' , '19-JUL-1996' , 25, 9559240344 , 89645, 'California' , '55, South Nagar' , '26-SEP-2017' , 'Cloud@04' , 'Funnyman' , 'Rowbow2');
 insert1.insert_customer(90214 , 'Vaibhavi T' , '09-Oct-1996' , 25, 8149935345 , 77564 , 'Texas' ,'71, Effco Way' , '14-OCT-2018' , 'Space@05' , 'Cutiepie' , 'Unicorn');
-insert1.insert_customer(87452 , 'Jack Columbus' , '01-jan-1988' , 32, 8149976541 , 72123 , 'Washington', '89, Treat Streat' , '19-Jul-2021' , 'yahoo&5' , 'Lassi' , 'Beatit');
-insert1.insert_customer(11075 , 'Will Jackman' , '23-Sep-90' , 32, 8149976541 , 72123 , 'Mason' ,'89, Treat Streat' , '19-Nov-2021' , 'Jahoo&5' , 'Lassi' , 'Beatit1');
-insert1.insert_customer(11070 , 'Ted Artist' , '23-Mar-95' , 32, 8149976541 , 72123 , 'Jason' ,'90, Cute Streat' , '19-Aug-2021' , 'Kahoo&5' , 'Jassi' , 'Beatit2');
-insert1.insert_customer(87454 , 'TOAD GUPTA' , '23-Mar-00' , 32, 8149976541 , 72123 , 'Fall City' , '101, Acute Streat' , '19-Jul-2021' , 'Lahoo&5' , 'Fassi' , 'Beatit3');
-insert1.insert_customer(66751 , 'HOLLY WITTON' , '11-Nov-90' , 32, 8149976541 , 72123 , 'Snow City' , '4, John Streat' , '19-Jul-2021' , 'Mahoo&5' , 'Gassi' , 'Beatit4');
+insert1.insert_customer(87452 , 'Jack Columbus' , '01-jan-1988' , 32, 8149976542 , 72123 , 'Washington', '89, Treat Streat' , '19-Jul-2021' , 'yahoo&5' , 'Lassi' , 'Beatit');
+insert1.insert_customer(11075 , 'Will Jackman' , '23-Sep-90' , 32, 8149976543 , 72123 , 'Mason' ,'89, Treat Streat' , '19-Nov-2021' , 'Jahoo&5' , 'Lassi' , 'Beatit1');
+insert1.insert_customer(11070 , 'Ted Artist' , '23-Mar-95' , 32, 8149976544 , 72123 , 'Jason' ,'90, Cute Streat' , '19-Aug-2021' , 'Kahoo&5' , 'Jassi' , 'Beatit2');
+insert1.insert_customer(87454 , 'TOAD GUPTA' , '23-Mar-00' , 32, 8149976546 , 72123 , 'Fall City' , '101, Acute Streat' , '19-Jul-2021' , 'Lahoo&5' , 'Fassi' , 'Beatit3');
+insert1.insert_customer(66751 , 'HOLLY WITTON' , '11-Nov-90' , 32, 8149976547 , 72123 , 'Snow City' , '4, John Streat' , '19-Jul-2021' , 'Mahoo&5' , 'Gassi' , 'Beatit4');
 insert1.insert_customer(11489 , 'Megan Joseph' , '19-Jun-80' , 41, 2347905511 , 72123 , 'Manchester City' , '52, False Streat' , '19-Jul-2021' , 'Nahoo&5' , 'Lassi' , 'Beatit5');
 insert1.insert_customer (31000,'Anne Maria','02-Apr-1980',41,8576870012,02130,'Arizona','75 Tent Street','13-Jan-2021','Tina@123','tiger','pet');
 insert1.insert_customer(31001,'Ted Mosby','03-Jun-1990',32,8576871655,41115,'New Jersey','34 Tremont Street','7-Aug-2019','Kitc@345','pune','mumbai');
@@ -450,9 +444,8 @@ insert1.insert_crypto_transaction(CT_SEQ.nextval,'CRYPTO00I',	34749,	'18-Nov-21'
  insert1.insert_crypto_transaction(CT_SEQ.nextval,'CRYPTO00Q',	90214,	'28-Jan-21'	,'B',	150,	365.53,	'COINBASE',365.53);
  insert1.insert_crypto_transaction(CT_SEQ.nextval,'CRYPTO00T',	90214,	'11-Sep-21'	,'S',	15,	340.53,	'COINBASE',340.53);
  insert1.insert_crypto_transaction(CT_SEQ.nextval,'CRYPTO00T',	90214,	'21-Dec-21'	,'S',	135,	365.53,	'COINBASE',365.53);
-
-
-----------------------------------------------------------CUSTOMER FINANCIAL DETAILS---------------------------------------------------------------------------
+ 
+ ----------------------------------------------------------CUSTOMER FINANCIAL DETAILS---------------------------------------------------------------------------
 
 
 insert1.insert_cfinancial_detail(11489 ,67521,0,'IT',30140);
@@ -499,23 +492,32 @@ insert1.insert_cfinancial_detail(21009,34663,79,'IT',46566);
 
 
 ----------------Customer Feedback-------------------
+
 insert1.insert_feedback(FEEDBACK_SEQ.nextval,21006,'STOCK013', 'STOCK','Pfizer', 9, 'Long term growth');
-insert1.insert_feedback(FEEDBACK_SEQ.nextval,31001, 'MU1003',  'MUTUAL','Principal Emerging Bluechip Fund-Growth', 10, 'Good Gains');
+insert1.insert_feedback(FEEDBACK_SEQ.nextval,31001, 'MU1003', 'MUTUAL','Principal Emerging Bluechip Fund-Growth', 10, 'Good Gains');
 insert1.insert_feedback(FEEDBACK_SEQ.nextval,90214,'CRYPTO00T','CRYPTO','KUSAMA', 10, 'Highly Volatile');
-insert1.insert_feedback(FEEDBACK_SEQ.nextval,11075, 'CR0001',  'CURRENCY','United States Dollars' ,3, 'Lost My Money');
+insert1.insert_feedback(FEEDBACK_SEQ.nextval,11075, 'CR0001', 'CURRENCY','United States Dollars' ,3, 'Lost My Money');
 insert1.insert_feedback(FEEDBACK_SEQ.nextval,21009, 'STOCK020', 'STOCK','JNJ', 8, 'Saturation, slow growth');
-insert1.insert_feedback(FEEDBACK_SEQ.nextval,31004, 'MU1014' ,  'MUTUAL', 'Sundaram Select Micro Cap',10, 'Good Returns');
-insert1.insert_feedback(FEEDBACK_SEQ.nextval,13478,  'CRYPTO00B','CRYPTO','ETHEREUM', 9, 'Relax and Invest');
-insert1.insert_feedback(FEEDBACK_SEQ.nextval,14591,  'CR0009' ,'CURRENCY', 'Singapore Dollar', 9, 'Trusted fund');
-insert1.insert_feedback(FEEDBACK_SEQ.nextval,21005,  'CR0013' ,'CURRENCY', 'Canadian Dollar', 7, 'Longterm fund');
-insert1.insert_feedback(FEEDBACK_SEQ.nextval,13478,  'CRYPTO00A','CRYPTO','BITCOIN', 10, 'Future Crypto');
-insert1.insert_feedback(FEEDBACK_SEQ.nextval,21003,  'STOCK007', 'STOCK', 'T-Mobile', 7, 'Not trusted after brexit');
-insert1.insert_feedback(FEEDBACK_SEQ.nextval,11489,  'MU1002','MUTUAL', 'L&T Midcap-Growth', 8, 'Not Stable');
-
-
-
+insert1.insert_feedback(FEEDBACK_SEQ.nextval,31004, 'MU1014' , 'MUTUAL', 'Sundaram Select Micro Cap',10, 'Good Returns');
+insert1.insert_feedback(FEEDBACK_SEQ.nextval,13478, 'CRYPTO00B','CRYPTO','ETHEREUM', 9, 'Relax and Invest');
+insert1.insert_feedback(FEEDBACK_SEQ.nextval,14591, 'CR0009' ,'CURRENCY', 'Singapore Dollar', 9, 'Trusted fund');
+insert1.insert_feedback(FEEDBACK_SEQ.nextval,21005, 'CR0013' ,'CURRENCY', 'Canadian Dollar', 7, 'Longterm fund');
+insert1.insert_feedback(FEEDBACK_SEQ.nextval,13478, 'CRYPTO00A','CRYPTO','BITCOIN', 10, 'Future Crypto');
+insert1.insert_feedback(FEEDBACK_SEQ.nextval,21003, 'STOCK007', 'STOCK', 'T-Mobile', 7, 'Not trusted after brexit');
+insert1.insert_feedback(FEEDBACK_SEQ.nextval,11489, 'MU1002','MUTUAL', 'L&T Midcap-Growth', 8, 'Not Stable');
 
 
 
 end;
 /
+
+begin
+-----------------drop sequence-----------------
+execute immediate 'drop sequence CT_seq';
+execute immediate 'drop sequence MT_seq';
+execute immediate 'drop sequence ST_seq';
+execute immediate 'drop sequence feedback_seq';
+execute immediate 'drop sequence FT_seq';
+end;
+/
+
