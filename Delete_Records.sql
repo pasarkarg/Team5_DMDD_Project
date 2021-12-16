@@ -114,7 +114,7 @@ SELECT COUNT(*) FROM CRYPTO_TRANSACTIONS;
 
 ROLLBACK;
 
------------------------------------------------------FOREIGN_EXCHANGE_DETAILS-------------------------------------------
+-----------------------------------------------------DELETE_FOREIGN_EXCHANGE_TRANSACTIONS-------------------------------------------
 
 CREATE OR REPLACE PROCEDURE DELETE_FOREIGN_EXCHANGE_TRANSACTIONS (CUSTOMER_ID IN NUMBER, P_TABLE_NAME IN VARCHAR2) IS
 v_control NUMBER(1);
